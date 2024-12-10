@@ -3,6 +3,7 @@ import { Box, Container, Typography, Grid, Card, CardContent, CardMedia, CardAct
 import { motion } from 'framer-motion';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
+import creativeImage from '../../assets/images/creative.png';
 
 const Projects = () => {
   const theme = useTheme();
@@ -12,8 +13,8 @@ const Projects = () => {
     {
       title: 'Creative Hub',
       description: 'A web application built with React and Node.js',
-      image: 'https://via.placeholder.com/350x200',
-      github: '#',
+      image: creativeImage,
+      github: 'https://github.com/ClaireAgaba/Creative-Hub',
       demo: '#'
     },
     {
