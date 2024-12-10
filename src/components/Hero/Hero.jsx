@@ -3,6 +3,7 @@ import { Box, Typography, Container, Button, Grid, Stack, useTheme, useMediaQuer
 import { motion } from 'framer-motion';
 import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
+import profilePic from '../../assets/images/pic.jpeg';
 
 const Hero = () => {
   const theme = useTheme();
@@ -117,7 +118,7 @@ const Hero = () => {
             >
               <Box
                 component="img"
-                src="/src/assets/images/pic.jpeg"
+                src={profilePic}
                 alt="Claire Agaba"
                 sx={{
                   width: '100%',

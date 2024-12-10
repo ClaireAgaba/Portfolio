@@ -39,7 +39,9 @@ const Projects = () => {
       sx={{
         py: { xs: 6, md: 8 },
         background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-        color: 'white'
+        color: 'white',
+        width: '100%',
+        overflowX: 'hidden'
       }}
     >
       <Container maxWidth="lg">
@@ -62,7 +64,7 @@ const Projects = () => {
           >
             My Projects
           </Typography>
-          <Grid container spacing={{ xs: 2, md: 4 }}>
+          <Grid container spacing={{ xs: 2, md: 4 }} justifyContent="center">
             {projects.map((project, index) => (
               <Grid item xs={12} sm={6} md={4} key={index}>
                 <motion.div
