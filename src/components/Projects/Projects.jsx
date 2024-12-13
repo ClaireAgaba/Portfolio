@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
 import creativeImage from '../../assets/images/creative.png';
+import maidmatchImage from '../../assets/images/maidmatch.jepg';
 
 const Projects = () => {
   const theme = useTheme();
@@ -27,7 +28,7 @@ const Projects = () => {
     {
       title: 'Maid Match',
       description: 'Full-stack application with database integration',
-      image: 'https://via.placeholder.com/350x200',
+      image: maidmatchImage,
       github: '#',
       demo: '#'
     }
