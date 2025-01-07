@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
 import creativeImage from '../../assets/images/creative.png';
+import GTS from '../../assets/images/dbgts.png';
+import Maid from '../../assets/images/maidmatch.jpeg';
 
 const Projects = () => {
   const theme = useTheme();
@@ -19,15 +21,15 @@ const Projects = () => {
     },
     {
       title: 'Graduate Tracking System',
-      description: 'Mobile-first responsive design with modern UI/UX',
-      image: 'https://via.placeholder.com/350x200',
-      github: '#',
+      description: 'A django application with database integration',
+      image: GTS,
+      github: 'https://github.com/ClaireAgaba/alumni_tracking_system',
       demo: '#'
     },
     {
       title: 'Maid Match',
-      description: 'Full-stack application with database integration',
-      image: 'https://via.placeholder.com/350x200',
+      description: 'A React Native Mobile App',
+      image: Maid,
       github: '#',
       demo: '#'
     }
